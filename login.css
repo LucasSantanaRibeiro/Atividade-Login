@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.imagem {
+    height: 98vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: relative;
+}
+
+.input {
+
+    display: block;
+
+}
+
+.AreaDeLogin {
+    border: 3px solid rgb(11, 141, 141);
+    background-color: rgb(219, 240, 248);
+    border-radius: 10%;
+    display: inline-block;
+    padding: 30px;
+    margin-top: -7px;
+}
+
+.botao {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+}
+
+#checkbox {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#senha {
+    margin-top: 5px;
+}
+
+#email {
+    margin-top: 5px;
+}
+
+img {
+    margin-left: -7px;
+}
